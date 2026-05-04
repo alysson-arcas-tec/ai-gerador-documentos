@@ -4,7 +4,7 @@ Projeto em Python para gerar documentos localmente a partir de `Escopo.docx`, se
 
 Guia de chamada por linguagem natural para Cursor, Codex e Claude:
 
-- [COMANDOS_IA.md](<*\COMANDOS_IA.md>)
+- [COMANDOS_IA.md](COMANDOS_IA.md)
 
 ## Objetivo
 
@@ -46,7 +46,7 @@ Use o agente backlog sprint 3 com base no Escopo.docx. Se faltar informacao, me 
 
 Para mais exemplos prontos, consulte:
 
-- [COMANDOS_IA.md](<*\COMANDOS_IA.md>)
+- [COMANDOS_IA.md](COMANDOS_IA.md)
 
 ### 2. Executar diretamente em Python
 
