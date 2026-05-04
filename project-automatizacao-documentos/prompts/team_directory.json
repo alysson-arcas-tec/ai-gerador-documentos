@@ -1,0 +1,24 @@
+{
+  "fields": [
+    { "name": "project_name", "label": "Nome do projeto", "type": "text", "source_keys": ["project.project_name"] },
+    { "name": "client_name", "label": "Nome do cliente", "type": "text", "source_keys": ["project.client_name"] },
+    { "name": "coordinator_name", "label": "Nome do coordenador", "type": "text", "source_keys": ["project.coordinator_name"] },
+    { "name": "reference_date", "label": "Data de referência", "type": "date" },
+    { "name": "directory_purpose", "label": "Finalidade do diretório", "type": "paragraph" },
+    {
+      "name": "team_directory_rows",
+      "label": "Linhas do diretório da equipe",
+      "type": "table",
+      "source_keys": ["team"],
+      "default_rows": 6,
+      "columns": [
+        { "name": "name", "label": "Nome", "type": "text", "source_name": "name" },
+        { "name": "role", "label": "Papel", "type": "text", "source_name": "role" },
+        { "name": "responsibilities", "label": "Responsabilidades", "type": "text", "source_name": "responsibilities" },
+        { "name": "contact", "label": "Contato", "type": "text" },
+        { "name": "availability", "label": "Disponibilidade", "type": "text" }
+      ]
+    },
+    { "name": "communication_channels", "label": "Canais de comunicação (separados por ;)", "type": "list" }
+  ]
+}

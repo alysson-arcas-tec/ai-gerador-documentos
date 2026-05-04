@@ -1,0 +1,9 @@
+{
+  "id": "team-directory",
+  "title": "Agente de Diretório da Equipe",
+  "builder": "team_directory",
+  "output_format": "docx",
+  "default_output": "Diretório da Equipe.docx",
+  "prompt_file": "team_directory.json",
+  "summary": "Gera o diretório da equipe do projeto."
+}

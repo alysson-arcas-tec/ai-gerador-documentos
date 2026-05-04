@@ -1,0 +1,9 @@
+{
+  "id": "kickoff-minutes",
+  "title": "Agente de Ata de Kick-off",
+  "builder": "kickoff_minutes",
+  "output_format": "docx",
+  "default_output": "Ata de Reunião de Kick-off.docx",
+  "prompt_file": "kickoff_minutes.json",
+  "summary": "Gera a ata de reunião de kick-off do projeto."
+}

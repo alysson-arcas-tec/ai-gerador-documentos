@@ -1,0 +1,9 @@
+{
+  "id": "project-timeline",
+  "title": "Agente de Timeline do Projeto",
+  "builder": "timeline_png",
+  "output_format": "png",
+  "default_output": "Timeline_Projeto.png",
+  "prompt_file": "project_timeline.json",
+  "summary": "Gera a timeline visual do projeto em PNG."
+}

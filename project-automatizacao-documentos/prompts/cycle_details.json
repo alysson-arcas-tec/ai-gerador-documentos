@@ -1,0 +1,20 @@
+{
+  "fields": [
+    { "name": "project_name", "label": "Nome do projeto", "type": "text", "source_keys": ["project.project_name"] },
+    { "name": "hourly_rate", "label": "Custo hora considerado", "type": "int", "default": 0 },
+    {
+      "name": "cycles",
+      "label": "Ciclos / sprints",
+      "type": "table",
+      "default_rows": 6,
+      "columns": [
+        { "name": "name", "label": "Nome da sprint", "type": "text" },
+        { "name": "period", "label": "Período", "type": "text" },
+        { "name": "objective", "label": "Objetivo", "type": "text" },
+        { "name": "estimated_hours", "label": "Horas estimadas", "type": "int" },
+        { "name": "spent_hours", "label": "Horas gastas", "type": "int" },
+        { "name": "notes", "label": "Observações", "type": "text" }
+      ]
+    }
+  ]
+}

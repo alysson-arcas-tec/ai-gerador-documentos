@@ -1,0 +1,9 @@
+{
+  "id": "wbs-dictionary",
+  "title": "Agente de Dicionário da EAP",
+  "builder": "wbs_dictionary",
+  "output_format": "docx",
+  "default_output": "Dicionário da EAP.docx",
+  "prompt_file": "wbs_dictionary.json",
+  "summary": "Gera o dicionário da EAP a partir do escopo e das respostas complementares."
+}

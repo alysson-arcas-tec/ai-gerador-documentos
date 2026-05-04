@@ -1,0 +1,9 @@
+{
+  "id": "acceptance-term",
+  "title": "Agente de Termo de Aceite",
+  "builder": "acceptance_term",
+  "output_format": "docx",
+  "default_output": "Termo de Aceite - Sprint [n].docx",
+  "prompt_file": "acceptance_term.json",
+  "summary": "Gera um termo de aceite de entrega por sprint ou ciclo."
+}

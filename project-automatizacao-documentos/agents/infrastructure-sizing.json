@@ -1,0 +1,9 @@
+{
+  "id": "infrastructure-sizing",
+  "title": "Agente de Infraestrutura e Arquitetura",
+  "builder": "infrastructure_sizing",
+  "output_format": "docx",
+  "default_output": "Dimensionamento de Infraestrutura e Arquitetura.docx",
+  "prompt_file": "infrastructure_sizing.json",
+  "summary": "Gera o documento de dimensionamento de infraestrutura e arquitetura."
+}

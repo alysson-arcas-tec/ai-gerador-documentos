@@ -1,0 +1,57 @@
+{
+  "change-request": [
+    "solicitacao de mudanca de escopo",
+    "mudanca de escopo",
+    "change request"
+  ],
+  "status-report": [
+    "status report",
+    "relatorio de status",
+    "status da sprint"
+  ],
+  "acceptance-term": [
+    "termo de aceite",
+    "termo de aceite sprint 3",
+    "aceite sprint 3"
+  ],
+  "project-timeline": [
+    "timeline",
+    "cronograma visual",
+    "linha do tempo do projeto"
+  ],
+  "retrospective-minutes": [
+    "ata de retrospectiva",
+    "retrospectiva",
+    "retrospective minutes"
+  ],
+  "kickoff-minutes": [
+    "ata de kick-off",
+    "ata de kickoff",
+    "kickoff"
+  ],
+  "sprint-backlog": [
+    "backlog sprint 3",
+    "backlog da sprint 3",
+    "backlog"
+  ],
+  "cycle-details": [
+    "detalhamento dos ciclos",
+    "ciclos",
+    "cycle details"
+  ],
+  "wbs-dictionary": [
+    "dicionario da eap",
+    "eap",
+    "wbs dictionary"
+  ],
+  "infrastructure-sizing": [
+    "dimensionamento de infraestrutura",
+    "infraestrutura",
+    "arquitetura"
+  ],
+  "team-directory": [
+    "diretorio da equipe",
+    "equipe",
+    "team directory"
+  ]
+}

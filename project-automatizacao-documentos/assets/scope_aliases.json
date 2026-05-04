@@ -1,0 +1,15 @@
+{
+  "project_table": {
+    "Nome do Projeto": "project_name",
+    "Cliente (Contratante)": "client_name",
+    "Empresa Responsável": "contractor_name",
+    "Coordenador do Projeto": "coordinator_name",
+    "Versão do Documento": "scope_version",
+    "Data de Elaboração": "scope_date"
+  },
+  "table_headers": {
+    "approvers": ["Nome", "Empresa / Cargo", "Papel"],
+    "team": ["Nome", "Papel", "Responsabilidades Principais"],
+    "glossary": ["Termo", "Definição"]
+  }
+}

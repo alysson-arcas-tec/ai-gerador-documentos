@@ -1,0 +1,46 @@
+# Python cache and tooling
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local environments
+.venv/
+venv/
+env/
+ENV/
+
+# Local secrets and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+secrets/
+credentials/
+
+# Local scope files, filled answers, and generated artifacts
+Escopo.docx
+*respostas*.json
+*answers*.json
+*_answers.json
+*.docx
+*.xlsx
+*.xls
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.webp
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+~$*

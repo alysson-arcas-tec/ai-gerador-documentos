@@ -1,0 +1,9 @@
+{
+  "id": "cycle-details",
+  "title": "Agente de Detalhamento dos Ciclos",
+  "builder": "cycle_details",
+  "output_format": "xlsx",
+  "default_output": "Detalhamento dos Ciclos.xlsx",
+  "prompt_file": "cycle_details.json",
+  "summary": "Gera a planilha de detalhamento dos ciclos com métricas por sprint."
+}

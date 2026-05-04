@@ -1,0 +1,17 @@
+{
+  "fields": [
+    { "name": "project_name", "label": "Nome do projeto", "type": "text", "source_keys": ["project.project_name"] },
+    { "name": "client_name", "label": "Nome do cliente", "type": "text", "source_keys": ["project.client_name"] },
+    { "name": "contractor_name", "label": "Nome da contratada", "type": "text", "source_keys": ["project.contractor_name"] },
+    { "name": "coordinator_name", "label": "Nome do coordenador", "type": "text", "source_keys": ["project.coordinator_name"] },
+    { "name": "request_id", "label": "Identificador da solicitação", "type": "text" },
+    { "name": "request_date", "label": "Data da solicitação", "type": "date" },
+    { "name": "requester_name", "label": "Nome do solicitante", "type": "text" },
+    { "name": "request_title", "label": "Título resumido da mudança", "type": "text" },
+    { "name": "requested_change", "label": "Descrição da mudança solicitada", "type": "paragraph" },
+    { "name": "business_reason", "label": "Justificativa da mudança", "type": "paragraph" },
+    { "name": "impacts", "label": "Impactos preliminares (separados por ;)", "type": "list" },
+    { "name": "decision", "label": "Recomendação / decisão preliminar", "type": "paragraph" },
+    { "name": "approver_name", "label": "Nome do aprovador", "type": "text" }
+  ]
+}

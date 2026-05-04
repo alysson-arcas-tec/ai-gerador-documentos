@@ -1,0 +1,9 @@
+{
+  "id": "status-report",
+  "title": "Agente de Status Report",
+  "builder": "status_report",
+  "output_format": "docx",
+  "default_output": "Status Report.docx",
+  "prompt_file": "status_report.json",
+  "summary": "Gera um status report periódico do projeto."
+}

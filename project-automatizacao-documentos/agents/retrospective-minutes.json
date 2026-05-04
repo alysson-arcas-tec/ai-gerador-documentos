@@ -1,0 +1,9 @@
+{
+  "id": "retrospective-minutes",
+  "title": "Agente de Ata de Retrospectiva",
+  "builder": "retrospective_minutes",
+  "output_format": "docx",
+  "default_output": "Ata de Retrospectiva.docx",
+  "prompt_file": "retrospective_minutes.json",
+  "summary": "Gera uma ata de retrospectiva da sprint."
+}

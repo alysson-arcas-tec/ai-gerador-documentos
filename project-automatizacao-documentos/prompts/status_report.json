@@ -1,0 +1,18 @@
+{
+  "fields": [
+    { "name": "project_name", "label": "Nome do projeto", "type": "text", "source_keys": ["project.project_name"] },
+    { "name": "client_name", "label": "Nome do cliente", "type": "text", "source_keys": ["project.client_name"] },
+    { "name": "contractor_name", "label": "Nome da contratada", "type": "text", "source_keys": ["project.contractor_name"] },
+    { "name": "coordinator_name", "label": "Nome do coordenador", "type": "text", "source_keys": ["project.coordinator_name"] },
+    { "name": "report_id", "label": "Identificador do relatório", "type": "text" },
+    { "name": "report_date", "label": "Data do status report", "type": "date" },
+    { "name": "reference_period", "label": "Período de referência", "type": "text" },
+    { "name": "cycle_name", "label": "Sprint ou ciclo referente", "type": "text" },
+    { "name": "overall_status", "label": "Status geral do período", "type": "text" },
+    { "name": "executive_summary", "label": "Resumo executivo", "type": "paragraph" },
+    { "name": "completed_items", "label": "Itens concluídos (separados por ;)", "type": "list" },
+    { "name": "in_progress_items", "label": "Itens em andamento (separados por ;)", "type": "list" },
+    { "name": "risks", "label": "Riscos e impedimentos (separados por ;)", "type": "list" },
+    { "name": "next_steps", "label": "Próximos passos (separados por ;)", "type": "list" }
+  ]
+}

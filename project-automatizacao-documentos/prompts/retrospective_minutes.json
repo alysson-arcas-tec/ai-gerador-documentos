@@ -1,0 +1,25 @@
+{
+  "fields": [
+    { "name": "project_name", "label": "Nome do projeto", "type": "text", "source_keys": ["project.project_name"] },
+    { "name": "client_name", "label": "Nome do cliente", "type": "text", "source_keys": ["project.client_name"] },
+    { "name": "coordinator_name", "label": "Nome do coordenador", "type": "text", "source_keys": ["project.coordinator_name"] },
+    { "name": "sprint_name", "label": "Nome da sprint analisada", "type": "text" },
+    { "name": "meeting_date", "label": "Data da retrospectiva", "type": "date" },
+    { "name": "participants", "label": "Participantes (separados por ;)", "type": "list" },
+    { "name": "went_well", "label": "O que deu certo (separado por ;)", "type": "list" },
+    { "name": "didnt_go_well", "label": "O que não deu certo (separado por ;)", "type": "list" },
+    { "name": "improvements", "label": "Pontos de melhoria (separados por ;)", "type": "list" },
+    {
+      "name": "actions",
+      "label": "Ações da retrospectiva",
+      "type": "table",
+      "default_rows": 3,
+      "columns": [
+        { "name": "action", "label": "Ação", "type": "text" },
+        { "name": "owner", "label": "Responsável", "type": "text" },
+        { "name": "due_date", "label": "Prazo", "type": "date" }
+      ]
+    },
+    { "name": "final_notes", "label": "Observações finais", "type": "paragraph" }
+  ]
+}

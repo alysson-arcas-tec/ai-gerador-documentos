@@ -1,0 +1,23 @@
+{
+  "fields": [
+    { "name": "project_name", "label": "Nome do projeto", "type": "text", "source_keys": ["project.project_name"] },
+    { "name": "client_name", "label": "Nome do cliente", "type": "text", "source_keys": ["project.client_name"] },
+    { "name": "coordinator_name", "label": "Nome do coordenador", "type": "text", "source_keys": ["project.coordinator_name"] },
+    { "name": "reference_date", "label": "Data de referência do documento", "type": "date" },
+    { "name": "dictionary_purpose", "label": "Finalidade resumida do dicionário", "type": "paragraph", "source_keys": ["derived.project_summary"] },
+    {
+      "name": "wbs_items",
+      "label": "Pacotes da EAP",
+      "type": "table",
+      "source_keys": ["derived.wbs_items"],
+      "default_rows": 6,
+      "columns": [
+        { "name": "code", "label": "Código", "type": "text", "source_name": "code" },
+        { "name": "package", "label": "Pacote", "type": "text", "source_name": "package" },
+        { "name": "deliverable", "label": "Entregável", "type": "text", "source_name": "deliverable" },
+        { "name": "description", "label": "Descrição", "type": "text", "source_name": "description" },
+        { "name": "acceptance", "label": "Critério de aceite", "type": "text", "source_name": "acceptance" }
+      ]
+    }
+  ]
+}

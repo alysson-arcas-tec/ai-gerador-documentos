@@ -1,0 +1,18 @@
+{
+  "fields": [
+    { "name": "project_name", "label": "Nome do projeto", "type": "text", "source_keys": ["project.project_name"] },
+    { "name": "project_start_date", "label": "Data de início do projeto", "type": "date" },
+    { "name": "sprint_length_days", "label": "Duração de cada sprint em dias", "type": "int", "default": 14 },
+    {
+      "name": "timeline_phases",
+      "label": "Fases da timeline",
+      "type": "table",
+      "default_rows": 5,
+      "columns": [
+        { "name": "name", "label": "Nome da fase", "type": "text" },
+        { "name": "objective", "label": "Objetivo da fase", "type": "text" },
+        { "name": "duration_sprints", "label": "Duração em sprints", "type": "int" }
+      ]
+    }
+  ]
+}

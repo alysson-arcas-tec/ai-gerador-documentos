@@ -1,0 +1,9 @@
+{
+  "id": "change-request",
+  "title": "Agente de Solicitação de Mudança de Escopo",
+  "builder": "change_request",
+  "output_format": "docx",
+  "default_output": "Solicitação de Mudança de Escopo.docx",
+  "prompt_file": "change_request.json",
+  "summary": "Gera um documento formal de solicitação de mudança de escopo."
+}

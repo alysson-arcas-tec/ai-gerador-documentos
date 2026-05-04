@@ -1,0 +1,55 @@
+{
+  "fields": [
+    { "name": "project_name", "label": "Nome do projeto", "type": "text", "source_keys": ["project.project_name"] },
+    { "name": "hourly_rate", "label": "Custo hora considerado", "type": "int", "default": 0 },
+    { "name": "sprint_name", "label": "Nome da sprint", "type": "text" },
+    { "name": "sprint_period", "label": "Período da sprint", "type": "text" },
+    { "name": "sprint_goal", "label": "Objetivo da sprint", "type": "paragraph" },
+    {
+      "name": "backlog_items",
+      "label": "Itens do backlog",
+      "type": "table",
+      "default_rows": 6,
+      "columns": [
+        { "name": "id", "label": "ID", "type": "text" },
+        { "name": "epic", "label": "Épico", "type": "text" },
+        { "name": "task", "label": "Tarefa", "type": "text" },
+        { "name": "owner", "label": "Responsável", "type": "text" },
+        { "name": "start_date", "label": "Início", "type": "date" },
+        { "name": "end_date", "label": "Fim", "type": "date" },
+        { "name": "hours", "label": "Horas estimadas", "type": "int" },
+        { "name": "status", "label": "Status", "type": "text" },
+        { "name": "impact", "label": "Ausência / impacto", "type": "text" },
+        { "name": "mitigation", "label": "Mitigação", "type": "text" },
+        { "name": "acceptance", "label": "Critério de aceite", "type": "text" }
+      ]
+    },
+    {
+      "name": "allocation_rows",
+      "label": "Equipe alocada",
+      "type": "table",
+      "source_keys": ["derived.team_directory_rows"],
+      "default_rows": 4,
+      "columns": [
+        { "name": "name", "label": "Nome", "type": "text", "source_name": "name" },
+        { "name": "role", "label": "Papel", "type": "text", "source_name": "role" },
+        { "name": "capacity_hours", "label": "Capacidade planejada (h)", "type": "int" },
+        { "name": "allocated_hours", "label": "Horas alocadas", "type": "int" },
+        { "name": "availability_note", "label": "Observação de disponibilidade", "type": "text" }
+      ]
+    },
+    {
+      "name": "absences",
+      "label": "Ausências relevantes",
+      "type": "table",
+      "default_rows": 1,
+      "columns": [
+        { "name": "name", "label": "Nome", "type": "text" },
+        { "name": "date", "label": "Data", "type": "date" },
+        { "name": "hours", "label": "Horas", "type": "int" },
+        { "name": "impact", "label": "Impacto", "type": "text" }
+      ]
+    },
+    { "name": "risk_items", "label": "Riscos da sprint (separados por ;)", "type": "list" }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "fields": [
+    { "name": "project_name", "label": "Nome do projeto", "type": "text", "source_keys": ["project.project_name"] },
+    { "name": "client_name", "label": "Nome do cliente", "type": "text", "source_keys": ["project.client_name"] },
+    { "name": "contractor_name", "label": "Nome da contratada", "type": "text", "source_keys": ["project.contractor_name"] },
+    { "name": "coordinator_name", "label": "Nome do coordenador", "type": "text", "source_keys": ["project.coordinator_name"] },
+    { "name": "meeting_date", "label": "Data da reunião de kick-off", "type": "date" },
+    { "name": "meeting_time", "label": "Horário da reunião", "type": "text" },
+    { "name": "meeting_location", "label": "Local da reunião", "type": "text" },
+    { "name": "meeting_objective", "label": "Objetivo principal da reunião", "type": "paragraph" },
+    {
+      "name": "participants",
+      "label": "Participantes da reunião",
+      "type": "table",
+      "default_rows": 6,
+      "columns": [
+        { "name": "name", "label": "Nome", "type": "text" },
+        { "name": "role", "label": "Papel / cargo", "type": "text" },
+        { "name": "organization", "label": "Organização", "type": "text" }
+      ]
+    },
+    {
+      "name": "macro_schedule",
+      "label": "Cronograma macro",
+      "type": "table",
+      "default_rows": 5,
+      "columns": [
+        { "name": "phase", "label": "Fase", "type": "text" },
+        { "name": "period", "label": "Período", "type": "text" },
+        { "name": "objective", "label": "Objetivo", "type": "text" }
+      ]
+    },
+    { "name": "initial_risks", "label": "Riscos iniciais (separados por ;)", "type": "list" },
+    {
+      "name": "next_steps",
+      "label": "Próximos passos",
+      "type": "table",
+      "default_rows": 4,
+      "columns": [
+        { "name": "action", "label": "Ação", "type": "text" },
+        { "name": "owner", "label": "Responsável", "type": "text" },
+        { "name": "due_date", "label": "Prazo", "type": "date" }
+      ]
+    }
+  ]
+}

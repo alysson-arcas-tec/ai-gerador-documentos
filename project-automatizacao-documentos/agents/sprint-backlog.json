@@ -1,0 +1,9 @@
+{
+  "id": "sprint-backlog",
+  "title": "Agente de Backlog de Sprint",
+  "builder": "sprint_backlog",
+  "output_format": "xlsx",
+  "default_output": "Backlog Sprint 3.xlsx",
+  "prompt_file": "sprint_backlog.json",
+  "summary": "Gera a planilha de backlog da sprint."
+}

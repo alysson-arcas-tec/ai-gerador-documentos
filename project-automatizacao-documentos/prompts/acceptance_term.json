@@ -1,0 +1,16 @@
+{
+  "fields": [
+    { "name": "project_name", "label": "Nome do projeto", "type": "text", "source_keys": ["project.project_name"] },
+    { "name": "client_name", "label": "Nome do cliente", "type": "text", "source_keys": ["project.client_name"] },
+    { "name": "contractor_name", "label": "Nome da contratada", "type": "text", "source_keys": ["project.contractor_name"] },
+    { "name": "coordinator_name", "label": "Nome do coordenador", "type": "text", "source_keys": ["project.coordinator_name"] },
+    { "name": "cycle_name", "label": "Sprint ou ciclo avaliado", "type": "text" },
+    { "name": "acceptance_date", "label": "Data do aceite", "type": "date" },
+    { "name": "delivery_period", "label": "Período da entrega", "type": "text" },
+    { "name": "delivered_items", "label": "Entregas avaliadas (separadas por ;)", "type": "list" },
+    { "name": "open_points", "label": "Pendências ou ressalvas (separadas por ;)", "type": "list" },
+    { "name": "client_representative", "label": "Representante do cliente", "type": "text" },
+    { "name": "contractor_representative", "label": "Representante da contratada", "type": "text", "default_from_answer": "coordinator_name" },
+    { "name": "final_decision", "label": "Texto de conclusão do aceite", "type": "paragraph" }
+  ]
+}

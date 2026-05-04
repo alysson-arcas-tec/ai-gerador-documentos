@@ -1,0 +1,37 @@
+{
+  "fields": [
+    { "name": "project_name", "label": "Nome do projeto", "type": "text", "source_keys": ["project.project_name"] },
+    { "name": "client_name", "label": "Nome do cliente", "type": "text", "source_keys": ["project.client_name"] },
+    { "name": "coordinator_name", "label": "Nome do coordenador", "type": "text", "source_keys": ["project.coordinator_name"] },
+    { "name": "reference_date", "label": "Data de referência", "type": "date" },
+    { "name": "architecture_objective", "label": "Objetivo da arquitetura", "type": "paragraph", "source_keys": ["derived.project_summary"] },
+    {
+      "name": "environment_rows",
+      "label": "Ambientes previstos",
+      "type": "table",
+      "source_keys": ["derived.environment_rows"],
+      "default_rows": 3,
+      "columns": [
+        { "name": "name", "label": "Ambiente", "type": "text", "source_name": "name" },
+        { "name": "purpose", "label": "Finalidade", "type": "text", "source_name": "purpose" },
+        { "name": "availability", "label": "Disponibilidade", "type": "text", "source_name": "availability" }
+      ]
+    },
+    {
+      "name": "stack_items",
+      "label": "Camadas e tecnologias",
+      "type": "table",
+      "source_keys": ["derived.stack_items"],
+      "default_rows": 4,
+      "columns": [
+        { "name": "layer", "label": "Camada", "type": "text", "source_name": "layer" },
+        { "name": "technology", "label": "Tecnologia", "type": "text", "source_name": "technology" },
+        { "name": "purpose", "label": "Finalidade", "type": "text", "source_name": "purpose" }
+      ]
+    },
+    { "name": "integrations", "label": "Integrações e dependências (separadas por ;)", "type": "list", "source_keys": ["derived.integrations"] },
+    { "name": "security_controls", "label": "Controles de segurança (separados por ;)", "type": "list", "source_keys": ["derived.security_controls"] },
+    { "name": "backup_strategy", "label": "Estratégia de backup e recuperação", "type": "paragraph", "source_keys": ["derived.backup_strategy"] },
+    { "name": "monitoring_strategy", "label": "Estratégia de monitoramento", "type": "paragraph", "source_keys": ["derived.monitoring_strategy"] }
+  ]
+}

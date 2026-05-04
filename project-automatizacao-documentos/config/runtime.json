@@ -1,0 +1,24 @@
+{
+  "date_format": "%d/%m/%Y",
+  "default_sprint_length_days": 14,
+  "default_hourly_rate": 0,
+  "docx": {
+    "primary_color": "1F4E79",
+    "secondary_color": "2E75B6",
+    "accent_color": "C9A84C",
+    "light_fill": "EAF2F8",
+    "soft_fill": "F7F0DA",
+    "text_color": "1F2933"
+  },
+  "xlsx": {
+    "primary_color": "1F4E79",
+    "secondary_color": "2E75B6",
+    "light_fill": "EAF2F8",
+    "soft_fill": "F7F0DA",
+    "text_color": "1F2933"
+  },
+  "timeline": {
+    "width": 1920,
+    "height": 860
+  }
+}
